@@ -10,7 +10,7 @@ resource "aws_instance" "this" {
   }
   user_data = file("docker.sh")
   tags = {
-    Name    = "Docker"
+    Name    = "docker"
   }
 }
 
