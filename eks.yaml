@@ -7,7 +7,7 @@ metadata:
 
 #If we give managed nodegroups, AWS will handle it, otherwise we need to handle it.
 managedNodeGroups:
-  - name: expenseproject
+  - name: expense
     instanceTypes: ["m5.large","c3.large","c4.large","c5.large"]
     desiredCapacity: 3
     spot: true
