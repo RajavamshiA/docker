@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: cluster-1
+  name: expense
   region: us-east-1
 
 #If we give managed nodegroups, AWS will handle it, otherwise we need to handle it.
